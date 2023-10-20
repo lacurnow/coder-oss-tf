@@ -7,7 +7,9 @@ terraform {
   }
 }
 
-variable "project" {}
+variable "project" {
+  default = "coder-oss-test-402610"
+}
 variable "region" {
   default = "us-central1"
 }
